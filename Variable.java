@@ -1,21 +1,21 @@
-public class Variable{
+public class Variable {
 	public static void main(String[] args){
-		byte v = 3; //обЪем кэша L3
-		short e = 2300; //частота процессора
-		int g = 2048; //обЪем видеопамяти 
-		long a = 5400; //скорость вращения жесткого диска
-		float f = 2.91f; //вес
-		double s = 15.6; //экран
-		char c = '5'; //процессор
-		boolean m = true;
-		System.out.println(v);
-		System.out.println(e);
-		System.out.println(g);
-		System.out.println(a);
-		System.out.println(f);
-		System.out.println(s);
-		System.out.println(c);
-		System.out.println(m);
+		byte l3 = 3;
+		short cpufrequency = 2300; 
+		int videomemorysize = 2048; 
+		long harddrivespeed = 5400; 
+		float weight = 2.91f; 
+		double screen = 15.6; 
+		char cpu = '5';
+		boolean randomaccessmemory = true;
+		System.out.println(l3);
+		System.out.println(cpufrequency);
+		System.out.println(videomemorysize);
+		System.out.println(harddrivespeed);
+		System.out.println(weight);
+		System.out.println(screen);
+		System.out.println(cpu);
+		System.out.println("randomaccessmemory = 6");
 
 	}
 }
