@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
-public class MyFirstGame {	
+public class MyFirstGame {
+
 	public static void main (String[]args) {
 	int randomNumber;
 	int enteredNumber;
@@ -12,13 +13,12 @@ public class MyFirstGame {
 	System.out.println("Enter number");
 	enteredNumber = scanner.nextInt();
 
-	if (enteredNumber > randomNumber){
+	if (enteredNumber > randomNumber) {
 		System.out.println("The number you entered is greater than what the computer intered");
-	}
-	else if (enteredNumber < randomNumber){
+	}else if (enteredNumber < randomNumber) {
 		System.out.println("The number you entered is less than what the computer");
-	}
-	else if (enteredNumber == randomNumber){
+	}else if (enteredNumber == randomNumber) {
+
 	}
 	}
 	}
