@@ -18,14 +18,8 @@ public class Calculator {
 			int result = 1;
 			for(int i = 1; i <= y; i++) {
 			result = result*x;
-		}
-			System.out.println(x + y);
-			System.out.println(x - y);
-			System.out.println(x / y);
-			System.out.println(x * y);
-			System.out.println(x % y);
-			System.out.println(result);
-
+		}	
+			
 		}	
 	}	
 }
